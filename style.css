@@ -185,7 +185,7 @@ footer {
         left: 5%;
         font-size: 14px;
     }
-    hr {
+    .section-line {
         max-width: 88%;
     }
 }
@@ -196,7 +196,7 @@ footer {
         left: 2.5%;
         font-size: 12px;
     }
-    hr {
+    .section-line {
         max-width: 87%;
     }
 }
