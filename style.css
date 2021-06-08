@@ -1,0 +1,202 @@
+body {
+    max-width: 1102px;
+    margin: auto;
+}
+
+.navbar {
+    padding: 10px 20px 10px 20px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+#navbarNavAltMarkup {
+    justify-content: flex-end;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero {
+    position: relative;
+    display: inline-block;
+}
+
+.text-overlay {
+    font-size: 18px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 17%;
+    left: 7%;
+    background-color: #31C289;
+    color: white;
+    font-weight: bold;
+    max-width: fit-content;
+    padding: 12px;
+}
+
+#icons {
+    padding-top: 75px;
+    text-align: center;
+    max-width: 90%;
+}
+
+.icon {
+    padding-bottom: 25px;
+}
+
+.icon-text {
+    padding: 15px 0 25px 0;
+    font-size: 14px;
+    color: #777;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.section {
+    display: flex;
+}
+
+.section h6 {
+    margin: 0;
+    align-self: flex-end;
+    padding-left: 5%;
+    padding-top: 2.5%;
+    text-transform: uppercase;
+    color: #555;
+}
+
+.section-line {
+    max-width: 89%;
+    margin-left: 5%;
+    margin-top: 5px;
+}
+
+#album {
+    max-width: 90%;
+    padding-top: 15px;
+    padding-left: 0px;
+}
+
+.album-img {
+    width: 100%;
+}
+
+.album-title {
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.album-text {
+    color: #777;
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+
+#blog {
+    max-width: 90%;
+    padding-left: 0;
+    padding-top: 15px;
+}
+
+.blog-img {
+    width: 100%;
+}
+
+.blog-title {
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+.blog-subtitle {
+    color: #555;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.blog-text {
+    color: #777;
+    font-size: 13px;
+    line-height: 1.6;
+    padding-bottom: 50px;
+}
+
+footer {
+    background-color: #222;
+}
+
+#footer {
+    max-width: 90%;
+    padding-bottom: 60px;
+}
+
+.footer-title {
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.footer-text {
+    color: #777;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.footer-post {
+    color: #777;
+    margin: 2px 0;
+}
+
+.footer-work {
+    color: #777;
+    margin: 0;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #999;
+    font-size: 13px;
+}
+
+.footer-link:hover {
+    color: white;
+}
+
+#copyright-block {
+    background-color: #111;
+}
+
+#copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777;
+    font-size: 13px;
+    padding: 20px 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 700px) {
+    .text-overlay {
+        top: 17%;
+        left: 5%;
+        font-size: 14px;
+    }
+    hr {
+        max-width: 88%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .text-overlay {
+        top: 17%;
+        left: 2.5%;
+        font-size: 12px;
+    }
+    hr {
+        max-width: 87%;
+    }
+}

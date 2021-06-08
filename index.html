@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Layout</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">My Website</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#">Portofolio</a>
+                        <a class="nav-link" href="#">Staff</a>
+                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#">Blog</a>
+                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#">Download</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero">
+            <img src="imgs/hero.jpg" class="img-fluid" alt="Hero">
+            <div class="text-overlay">
+                We strive to make all of our creations exquisite.
+            </div>
+        </div>
+
+        <div class="container" id="icons">
+            <div class="row">
+                <div class="col-lg-3">
+                    <img src="imgs/icon-1.png" alt="Purpose" class="icon">
+                    <h5>Purpose</h5>
+                    <p class="icon-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio natus
+                        cupiditate veniam reprehenderit ipsa placeat soluta!</p>
+                </div>
+                <div class="col-lg-3">
+                    <img src="imgs/icon-2.png" alt="Quality" class="icon">
+                    <h5>Quality</h5>
+                    <p class="icon-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo optio dicta
+                        facere ab repellat.</p>
+                </div>
+                <div class="col-lg-3">
+                    <img src="imgs/icon-3.png" alt="Function" class="icon">
+                    <h5>Function</h5>
+                    <p class="icon-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore maxime ducimus
+                        possimus.</p>
+                </div>
+                <div class="col-lg-3">
+                    <img src="imgs/icon-4.png" alt="Elegant" class="icon">
+                    <h5>Elegant</h5>
+                    <p class="icon-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ratione ad
+                        nostrum quo, velit quibusdam!</p>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <h6>Recent work</h6>
+        </div>
+        <hr class="section-line">
+        <div class="container" id="album">
+            <div class="row">
+                <div class="col-xl-3 col-md-6 col-sm-12">
+                    <img src="imgs/bike-400x340.jpg" alt="Bike" class="album-img">
+                    <h6 class="album-title">Green Bike</h6>
+                    <p class="album-text">Beautiful, Travel</p>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-12">
+                    <img src="imgs/surf-400x340.jpg" alt="Surf" class="album-img">
+                    <h6 class="album-title">Salt Of The Earth</h6>
+                    <p class="album-text">Beautiful, Travel</p>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-12">
+                    <img src="imgs/hills-400x340.jpg" alt="Hills" class="album-img">
+                    <h6 class="album-title">Mountain High</h6>
+                    <p class="album-text">Travel</p>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-12">
+                    <img src="imgs/path-400x340.jpg" alt="Path" class="album-img">
+                    <h6 class="album-title">When A Tree Falls</h6>
+                    <p class="album-text">Beautiful</p>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <h6>From the blog</h6>
+        </div>
+        <hr class="section-line">
+        <div class="container" id="blog">
+            <div class="row">
+                <div class="col-xl-4 col-md-12">
+                    <img src="imgs/cow-640x340.jpg" alt="" class="blog-img">
+                    <h6 class="blog-title">How Now</h6>
+                    <p class="blog-subtitle">Posted on October 28, 2020</p>
+                    <p class="blog-text">Praesent lectus felis, feugiat a pulvinar eget, dignissim id velit. Duis porta
+                        libero eget lectus vulputate, at convallis.</p>
+                </div>
+                <div class="col-xl-4 col-md-12">
+                    <img src="imgs/sunrise-640x340.jpg" alt="" class="blog-img">
+                    <h6 class="blog-title">Adrift by Simon Christen</h6>
+                    <p class="blog-subtitle">Posted on September 29, 2020</p>
+                    <p class="blog-text">Vivamus venenatis velit eget purus pellentesque, id commodo ligula hendrerit.
+                        In vel erat eget tellus condimentum porta. Suspendisse.</p>
+                </div>
+                <div class="col-xl-4 col-md-12">
+                    <img src="imgs/grass-640x340.jpg" alt="" class="blog-img">
+                    <h6 class="blog-title">A Walk In The Park</h6>
+                    <p class="blog-subtitle">Posted on August 10, 2020</p>
+                    <p class="blog-text">Nam molestie dui ut imperdiet semper. Vivamus fringilla luctus nunc a interdum.
+                        Pellentesque vestibulum magna purus, a consectetur.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container" id="footer">
+            <div class="row">
+                <div class="col-xl-4 col-md-12">
+                    <h6 class="footer-title">My Website</h6>
+                    <p class="footer-text">Etiam tristique scelerisque velit id imperdiet. Etiam orci sem, ullamcorper et velit et, malesuada
+                        pulvinar justo. Duis hendrerit vestibulum quam, id venenatis ligula tempor ac. Vestibulum porttitor
+                        venenatis enim, quis rutrum tellus fermentum at. Vivamus quis ipsum est. Etiam id molestie libero.
+                        In.</p>
+                </div>
+                <div class="col-xl-4 col-md-12">
+                    <h6 class="footer-title">Recent Posts</h6>
+                    <hr class="footer-post">
+                    <a href="#" class="footer-link">How Now</a>
+                    <hr class="footer-post">
+                    <a href="#" class="footer-link">Adrift by Simon Christen</a>
+                    <hr class="footer-post">
+                    <a href="#" class="footer-link">A Walk In The Park</a>
+                    <hr class="footer-post">
+                    <a href="#" class="footer-link">Time To Think</a>
+                    <hr class="footer-post">
+                    <a href="#" class="footer-link">Field Of Dreams</a>
+                    <hr class="footer-post">
+                </div>
+                <div class="col-xl-4 col-md-12">
+                    <h6 class="footer-title">Recent Work</h6>
+                    <hr class="footer-work">
+                    <a href="#" class="footer-link">Beautiful</a>
+                    <hr class="footer-work">
+                    <a href="#" class="footer-link">Travel</a>
+                    <hr class="footer-work">
+                    <a href="#" class="footer-link">Surreal</a>
+                    <hr class="footer-work">
+                    <a href="#" class="footer-link">Thoughts</a>
+                    <hr class="footer-work">
+                    <a href="#" class="footer-link">Unique</a>
+                    <hr class="footer-work">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="copyright-block">
+        <p id="copyright">&copy; 2020 ITAcademy</p>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
